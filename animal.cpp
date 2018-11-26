@@ -1,27 +1,27 @@
 #include "animal.h"
 
 
-Animal::Animal(string name, string noise) {
+Animal::Animal(std::string name, std::string noise) {
     this.name = name;
     this.noise = noise;
 }
 
-string Animal::getName() {
+std::string Animal::getName() {
     return name;
 }
 
-void Animal::setName(string name) {
+void Animal::setName(std::string name) {
     this.name = name;
 }
 
-string Animal::getNoise() {
+std::string Animal::getNoise() {
     return noise;
 }
 
-void Animal::setNoise(string noise) {
+void Animal::setNoise(std::string noise) {
     this.noise = noise;
 }
 
 void Animal::makeSomeNoise() {
-    cout << noise << endl;
+    std::cout << noise << std::endl;
 }

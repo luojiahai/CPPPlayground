@@ -6,14 +6,14 @@
 
 class Animal {
     private:
-        string name;
-        string noise;
+        std::string name;
+        std::string noise;
 
     public:
-        Animal(string name, string noise);
-        string getName();
+        Animal(std::string name, std::string noise);
+        std::string getName();
         void setName();
-        string getNoise();
+        std::string getNoise();
         void setNoise();
         void makeSomeNoise();
 };
