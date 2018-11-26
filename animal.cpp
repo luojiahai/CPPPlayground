@@ -1,4 +1,5 @@
 #include "animal.h"
+#include <string>
 
 Animal::Animal(string name, string noise) {
     this.name = name;
