@@ -2,8 +2,8 @@
 
 
 Animal::Animal(std::string name, std::string noise) {
-    this.name = name;
-    this.noise = noise;
+    this->name = name;
+    this->noise = noise;
 }
 
 std::string Animal::getName() {
@@ -11,7 +11,7 @@ std::string Animal::getName() {
 }
 
 void Animal::setName(std::string name) {
-    this.name = name;
+    this->name = name;
 }
 
 std::string Animal::getNoise() {
@@ -19,7 +19,7 @@ std::string Animal::getNoise() {
 }
 
 void Animal::setNoise(std::string noise) {
-    this.noise = noise;
+    this->noise = noise;
 }
 
 void Animal::makeSomeNoise() {
